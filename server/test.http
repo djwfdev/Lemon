@@ -1,0 +1,9 @@
+POST http://localhost:5000/login/member
+Content-Type: application/json
+
+{
+    "email":"bobj@gmail.com",
+    "password":"password"
+}
+
+// testing logins 

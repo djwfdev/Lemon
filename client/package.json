@@ -1,0 +1,61 @@
+{
+  "name": "navbar-dropdown-v1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/preset-react": "^7.17.12",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@fontsource/sora": "^4.5.8",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/lab": "^5.0.0-alpha.81",
+    "@mui/material": "^5.7.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.7",
+    "axios": "^0.27.2",
+    "babel-jest": "^24.9.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.28.0",
+    "enzyme": "^3.11.0",
+    "formik": "^2.2.9",
+    "history": "^5.3.0",
+    "identity-obj-proxy": "^3.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-hook-form": "^7.31.1",
+    "react-redux": "^8.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-test-renderer": "^17.0.0",
+    "react-uuid": "^1.0.2",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "regenerator-runtime": "^0.13.9",
+    "validator": "^13.7.0",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --silent=false",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

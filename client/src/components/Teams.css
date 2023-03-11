@@ -1,0 +1,78 @@
+/* css for the Team which helps to design MeetTheTeam page with Team*/
+
+.teams {
+    padding: 2rem;
+    margin-bottom: 700px;
+}
+
+.heading {
+    text-align: center;
+    color: #242424;
+}
+
+.teams-item {
+    margin: 0 auto;
+    color: white;
+}
+
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: space-between;
+    margin: 40px 80px;
+    justify-content: space-around;
+}
+
+.profile {
+    flex-basis: 260px;
+}
+
+.profile .profile-img {
+    display: block;
+    height: 260px;
+    width: 260px;
+    border: 50%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+    margin: 10px;
+}
+
+.profile:hover .profile-img {
+    filter: grayscale(0);
+}
+
+.profile h3 {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin: 10px;
+    color: #242424;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.profile h5 {
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-bottom: 7px;
+    color: #242424;
+    margin: 10px;
+}
+
+@media only screen and (min-width:1200px) {
+    .profiles {
+        flex-direction: row;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .profile .h5 {
+        flex-direction: rowColumn;
+        margin-bottom: 5px;
+    }
+}
